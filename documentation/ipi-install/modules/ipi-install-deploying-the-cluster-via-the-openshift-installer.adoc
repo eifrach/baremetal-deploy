@@ -11,3 +11,9 @@ Run the {product-title} installer:
 ----
 [kni@provisioner ~]$ ./openshift-baremetal-install --dir ~/clusterconfigs --log-level debug create cluster
 ----
+
+[NOTE]
+====
+for more debug output, export the Terraform debug environment variable before starting the installation   
+`export TF_LOG=trace`
+====
